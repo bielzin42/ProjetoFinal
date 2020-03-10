@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+header{ 
+        width: 100%;
+        height: 150px;
+        background-color: lightgoldenrodyellow;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: rosybrown;
+
+}
+img{
+    width: 100%;    
+}
+
+#logo{
+    margin-top: 01%;
+    margin-left: 01%;
+    float: left;
+    
+}
+
+#sobre{
+    width: 100%;
+    height: 400px;
+    background-color: paleturquoise;
+
+}
+
+#valores{
+    width: 100%;
+    height: 400px;
+    background-color: paleturquoise;
+
+}
+
+#equipe{
+    width: 100%;
+    height: 400px;
+    background-color: paleturquoise;
+
+}
