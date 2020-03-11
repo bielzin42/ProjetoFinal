@@ -4,7 +4,7 @@
 
 header{ 
         width: 100%;        
-        background-color: rgb(176, 224, 230);
+        background-color: #a0d8e9;
         position: fixed;
         margin-bottom: 1%;
         box-shadow: 0px 4px rgba(0, 0, 0, 0.048);    
@@ -43,17 +43,6 @@ h6{
     padding-left: 5%;
 }
 
-<<<<<<< HEAD
-p{
-    width: 50%;
-    float: left;
-    text-align: justify;
-    margin-left: 25%;     
-}
-
-
-
-=======
 .textcenter
 {
     text-align: center;
@@ -61,7 +50,6 @@ p{
     margin: 0 auto;
 }
 
->>>>>>> ba93db382bf0e4265a49eb08f411292e3e8556a9
 #searchbar{
     width: 450px;
 }
