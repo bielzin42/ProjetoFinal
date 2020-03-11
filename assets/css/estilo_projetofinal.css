@@ -3,10 +3,13 @@
 }
 
 header{ 
-        width: 100%;
-        /* height: 150px; */
-        background-color: powderblue;
+        width: 100%;        
+        background-color: rgb(176, 224, 230);
+        position: fixed;
+        margin-bottom: 1%;
+        box-shadow: 0px 4px rgba(0, 0, 0, 0.048);    
     }
+
 
 footer{
     width: 100%;
@@ -38,9 +41,9 @@ h2{
 h6{
     float: left;
     padding-left: 5%;
-       
 }
 
+<<<<<<< HEAD
 p{
     width: 50%;
     float: left;
@@ -50,6 +53,15 @@ p{
 
 
 
+=======
+.textcenter
+{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+>>>>>>> ba93db382bf0e4265a49eb08f411292e3e8556a9
 #searchbar{
     width: 450px;
 }
@@ -65,7 +77,7 @@ p{
     width: 100%;
     height: 400px;
     background-color: #F8EEE7;
-
+    padding-top: 5%;
 }
 
 #valores{
