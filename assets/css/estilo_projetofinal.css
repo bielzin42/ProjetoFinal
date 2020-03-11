@@ -160,16 +160,22 @@ p{
     /* background-color:  blanchedalmond; */
 }
 
-#triangulo-para-baixo {
-    width: 90%;        
-    border-left:  150px solid transparent;
+/* #triangulo-para-esquerda {
+    width: 70%;        
+    border-left:  180px solid transparent;
     border-right: 0px solid transparent;
     border-top: 120px solid plum;
     margin: 0 auto;
-    rotate: 90º;
-}
+    margin-right: 50%;
+    float: left;
+} */
 
-#limiteTriangulo{
-    width: ;
-
+#triangulo-para-direita {
+    width: 40%;   
+    border-right:  400px solid transparent;
+    border-bottom: 180px solid ;
+    margin-right: 80%;
+    float: left;
+    background-color: thistle;
+   margin: auto;
 }
