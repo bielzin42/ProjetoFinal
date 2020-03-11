@@ -27,14 +27,29 @@ div{
 
 h4{
     text-align: center;
+    color: rebeccapurple;
 }
 
+h2{
+        text-align: center;
+        color: rebeccapurple;
+}
 
 h6{
     float: left;
     padding-left: 5%;
        
 }
+
+p{
+    width: 50%;
+    float: left;
+    text-align: justify;
+    margin-left: 25%;     
+}
+
+
+
 #searchbar{
     width: 450px;
 }
@@ -133,3 +148,16 @@ h6{
     /* background-color:  blanchedalmond; */
 }
 
+#triangulo-para-baixo {
+    width: 90%;        
+    border-left:  150px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 120px solid plum;
+    margin: 0 auto;
+    rotate: 90º;
+}
+
+#limiteTriangulo{
+    width: ;
+
+}
