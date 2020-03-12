@@ -1,7 +1,7 @@
 *, *::after, *::before{
     box-sizing: border-box;
 }
-
+/* tamanhos e esqueleto do modal pai */
 .modal{
     position: fixed;
     top: 50%;
@@ -18,9 +18,13 @@
     padding-bottom: 1em;
 }
 
+/* abre o modal, por classe ou subclasse, não sei o nome certo
+ usei o scale 1 para faze=lo aparecer na tela */
 .modal.active {
     transform: translate(-50%, -50%) scale(1);
 }
+
+/* header do modal */
 
 .modal-header {
     padding: 10px 15px;
@@ -30,10 +34,14 @@
     border-bottom: 1px solid black;
 }
 
+/* titutlo do modal */
+
 .modal-header .title {
     font-size: 1.25rem;
     font-weight: bold;
 }
+
+/* botão fechar do modal */
 
 .modal-header .close-button {
     cursor: pointer;
@@ -44,9 +52,13 @@
     font-weight: bold;
 }
 
+/* espaçamento do modal */
+
 .modal-body {
     padding: 10px 15px;
 }
+
+/* ovelay por padrão desativado */
 
 #overlay {
     position: fixed;
@@ -59,6 +71,8 @@
     background-color: rgba(0,0,0, .5);
     pointer-events: none;
 }
+
+/* classe que ativa o overlay e os eventos do ponteiro */
 
 #overlay.active {
     pointer-events: all;
