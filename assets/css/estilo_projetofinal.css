@@ -63,9 +63,10 @@ h6{
 
 #sobre{
     width: 100%;
-    height: 400px;
+    padding-bottom: 2%;
     background-color: #F8EEE7;
     padding-top: 5%;
+    max-height: max-content;
 }
 
 #valores{
