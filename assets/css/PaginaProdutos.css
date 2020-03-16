@@ -11,16 +11,14 @@ header {
 }
 
 nav {
-  background-color: rgba(159, 207, 211, 0.712);
+  /* background-color: rgba(159, 207, 211, 0.712); */
   width: 100%;
   height: 5em;
   padding-left: 86%;
-   
 }
 
-.btn{
+.btn {
   margin-top: 11%;
-
 }
 
 h4 {
@@ -52,13 +50,9 @@ section {
   margin-left: 1em;
   margin-top: 3.5%;
 }
-<<<<<<< HEAD
 
 /* .sec3, */
 
-=======
-/* .sec3, */
->>>>>>> 3c375adba0073fa2934db5469195704ab522afb0
 .sec4,
 .sec5,
 .sec6,
@@ -70,10 +64,9 @@ section {
   margin-top: 1.875em;
 }
 
-.filtro{
-text-align: center;
-margin-top: 2.3%;
-
+.filtro {
+  text-align: center;
+  margin-top: 2.3%;
 }
 
 .sec {
@@ -107,4 +100,3 @@ img {
   background-size: 30%;
   /* background-image: url("https://i.gifer.com/ZcsJ.gif"); */
 }
-
