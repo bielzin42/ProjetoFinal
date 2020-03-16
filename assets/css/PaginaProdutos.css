@@ -3,19 +3,24 @@
   margin: 0;
   padding: 0;
 }
+
 header {
   /* background-color: #0ff; */
   width: 100%;
   /* height: 100px; */
 }
 
-/* colocar o botão fixo na direita sem padding */
 nav {
-  background-color: rgb(245, 138, 138);
+  background-color: rgba(159, 207, 211, 0.712);
   width: 100%;
-  height: 3.2em;
-  padding-left: 81%;
-  /* padding-top: 5%; */
+  height: 5em;
+  padding-left: 86%;
+   
+}
+
+.btn{
+  margin-top: 11%;
+
 }
 
 h4 {
@@ -34,7 +39,7 @@ span:hover {
 
 aside {
   /* background-color: #0f0; */
-  width: 18.9em;
+  width: 15%;
   /* height: 90%; */
   float: left;
   padding-bottom: 100%;
@@ -45,24 +50,36 @@ section {
   border-radius: 0.625em;
   float: left;
   margin-left: 1em;
+  margin-top: 3.5%;
 }
-.sec3,
+
+/* .sec3, */
+
 .sec4,
 .sec5,
 .sec6,
 .sec7,
-.sec8 {
+.sec8,
+.sec9,
+.sec10,
+.sec11 {
   margin-top: 1.875em;
+}
+
+.filtro{
+text-align: center;
+margin-top: 2.3%;
+
 }
 
 .sec {
   /* background-color: rgb(233, 36, 36); */
   width: 100%;
-  height: 1.875em;
+  /* height: 1em; */
   float: left;
-  margin-top: 3.125em;
   /* padding-left: 300px; */
 }
+
 /* imagens */
 img {
   width: 17.5em;
@@ -80,9 +97,10 @@ img {
 #caixa {
   /* background-color: #000; */
   width: 100%;
-  height: 75em;
+  /* height: 100%; */
   /* margin: 0 auto; */
-  background-image: url("https://media.giphy.com/media/120ErahsQyf1q8/giphy.gif");
+  /* background-image: url("https://media.giphy.com/media/120ErahsQyf1q8/giphy.gif"); */
   background-size: 30%;
   /* background-image: url("https://i.gifer.com/ZcsJ.gif"); */
 }
+
