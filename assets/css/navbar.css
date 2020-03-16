@@ -27,3 +27,7 @@ header {
   background-color: white;
   padding-top: 0.5%;
 }
+
+.nav-item {
+  padding-left: 5em;
+}
