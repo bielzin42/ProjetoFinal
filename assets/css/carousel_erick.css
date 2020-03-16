@@ -1,0 +1,45 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    background: #0007;
+}
+/*caixa*/
+.contencao{
+    margin: 12% auto;
+    width: 100%;
+    background: #000;
+}
+/*formatação da imagens tamanho*/
+#imagemBg{
+    width: 100%;
+    height: 19.5em;
+    transition: 1s;
+}
+/*botoes para passar as imagens para os lados*/
+.anterior, .proximo {
+    position: relative;
+    margin-top: -6em;
+    border-radius: 20em;
+    width: 1.5em;
+    height: 1.5em;
+    background-color: rgb(44, 62, 80, .2);
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.3em;
+    cursor: pointer;
+}
+.anterior{
+    float: left;
+}
+.proximo{
+    float: right;
+}
+.anterior:hover{
+    background-color: rgb(44, 62, 80, .7);
+}
+.proximo:hover {
+    background-color: rgb(44, 62, 80, .7);
+}
+/*fim da formatação do butao*/
